@@ -6,5 +6,3 @@ namespace :greeting do
     puts "hello from Rake!"
   end
 end
-
-greeting:hello
