@@ -8,6 +8,6 @@ namespace :greeting do
 
   desc 'outputs hello in spanish!'
   task :hola do
-    puts "hola de rake!"
+    puts "hola de Rake!"
   end
 end
