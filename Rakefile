@@ -11,3 +11,10 @@ namespace :greeting do
     puts "hola de Rake!"
   end
 end
+
+namespace :db do
+  desc 'invokes environment & migrate new table data'
+  task :migrate => :environment do
+    Student.create_table
+  end
+  end
